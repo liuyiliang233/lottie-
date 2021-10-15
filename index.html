@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <script src="https://cdn.bootcdn.net/ajax/libs/axios/0.21.1/axios.min.js"></script>
+</head>
+<body>
+  <p>
+    <label>请输入ZIP文件的线上地址：</label>
+    <input type="text" id="zipUrl" value="https://g.alicdn.com/eva-assets/2e41285f4800445234d6dae597aee67c/0.0.1/tmp/4d51f/d89386e5-4c03-4657-a5c2-d4f2dee0a97e.zip"/>
+  </p>
+  <button id="unzipBtn" onclick="unzipOnline()">在线解压</button>
+  <p id="status"></p>
+  <ul id="fileList"></ul>
+  <script src="./index.js"></script>
+</body>
+</html>
